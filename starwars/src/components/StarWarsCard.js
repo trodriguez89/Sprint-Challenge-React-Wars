@@ -12,20 +12,25 @@ const CardDivStyle = styled.div`
     width: 200px;
     height: 200px;
     margin-bottom: 20px;
-    background: white;
+    background: lightgray;
     transition: transform 0.2s ease-in;
 
     &:hover {
         color: #FFE81F;
         background-color: black;
         transform: translate(-5px) scale(1.05);
-        font-weight: bold;
+        
     }
 `;
 
 const StarWarsFontStyle = styled.h3`
     font-size: 16px;
     font-family: 'Hind', sans-serif;
+    font-weight: bold;
+
+    &:hover {
+        font-weight: bold;
+    }
 `;
 
 export default function (props) {
