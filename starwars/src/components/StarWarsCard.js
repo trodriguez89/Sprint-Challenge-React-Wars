@@ -28,7 +28,6 @@ const StarWarsFontStyle = styled.h3`
     font-family: 'Hind', sans-serif;
 `;
 
-
 export default function (props) {
 
     return (
